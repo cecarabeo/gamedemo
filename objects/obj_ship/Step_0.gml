@@ -50,14 +50,8 @@ score = player_score;
 draw_text(20,20,"asdsds");
 if(health_point <= 0)
 {
-	instance_create_layer(x, y, "Instances",obj_explosion);
 	instance_destroy();
-	//instance_destroy(obj_explosion);
-	//instance_create_layer(544, 1792, "Instances",obj_ship);
-	//if(!instance_exists(instance_find(obj_player_explosion, 1))){
-		room_goto_next();
-	//}
-
+	instance_create_layer(x, y, "Instances", obj_player_explosion);
 }
 
 

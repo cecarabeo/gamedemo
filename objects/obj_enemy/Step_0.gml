@@ -31,17 +31,21 @@ if(hp <= 0)
 		drop = 0;
 	}
 	//instance_destroy(obj_explosion);
-	obj_ship.player_score = obj_ship.player_score + 10;
-	obj_ship.kill_count = obj_ship.kill_count + 1;
-	if(obj_ship.kill_count < 10)
-	{
-		instance_create_layer(irandom_range(0,1024), irandom_range(0,1700), "Instances",obj_enemy);
+	if(instance_exists(obj_ship)){
+		obj_ship.player_score = obj_ship.player_score + 10;
+		obj_ship.kill_count = obj_ship.kill_count + 1;
+		if(obj_ship.kill_count < 10)
+		{
+			instance_create_layer(irandom_range(0,1024), irandom_range(0,1700), "Instances",obj_enemy);
+		}
 	}
 }
 
-if(obj_ship.kill_count >= 10 && obj_ship.boss_stage = false)
-{
-	instance_create_layer(room_width / 2, -200, "Instances",obj_boss);
-	obj_ship.boss_stage = true;
-	obj_ship.kill_count = 0;
+if(instance_exists(obj_ship)){
+	if(obj_ship.kill_count >= 10 && obj_ship.boss_stage = false)
+	{
+		instance_create_layer(room_width / 2, -200, "Instances",obj_boss);
+		obj_ship.boss_stage = true;
+		obj_ship.kill_count = 0;
+	}
 }
