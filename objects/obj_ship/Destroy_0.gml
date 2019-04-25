@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-aspd = base_aspd;
-bullet_level = base_bullet_level;
+instance_create_layer(x, y, "Instances", obj_player_explosion);

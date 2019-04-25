@@ -1,18 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(x < obj_ship.x)
-{
-	x = x + 3;
-}
+if(instance_exists(obj_ship)){
+	if(x < obj_ship.x)
+	{
+		x = x + 3;
+	}
 
-if(y < 600)
-{
-	y = y + 1;
-}
+	if(y < 600)
+	{
+		y = y + 1;
+	}
 
-if(x > obj_ship.x)
-{
-	x = x - 3;
+	if(x > obj_ship.x)
+	{
+		x = x - 3;
+	}	
 }
 shootcounter = shootcounter - 1;
 if(shootcounter <= 0)

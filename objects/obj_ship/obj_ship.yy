@@ -5,7 +5,57 @@
     "name": "obj_ship",
     "eventList": [
         {
-            "id": "7a54be8a-2a59-48ce-8445-78416b539aa3",
+            "id": "6fbbfbd3-ab19-47dc-8f7b-ec75509f6f93",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "af4feb64-9d85-4351-9e37-0be911d83cd8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 68,
+            "eventtype": 5,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "3176c1c6-037a-4ca9-b23e-b7fdfa83df9e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 65,
+            "eventtype": 5,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "4402e7bc-8fb7-4fb9-a51a-0e612de0f300",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 87,
+            "eventtype": 5,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "9db7a20c-f062-46ed-b62f-85d7a706e07e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 83,
+            "eventtype": 5,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "8c9af3c7-f7e3-40b1-aded-e66c3d0c5732",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,13 +65,23 @@
             "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
         },
         {
-            "id": "6fbbfbd3-ab19-47dc-8f7b-ec75509f6f93",
+            "id": "68fbd932-2229-4fc3-b681-4692e1ae50f3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 50,
+            "eventtype": 6,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "e64de9c3-b43b-4055-acae-93a44ba3f4c8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 1,
             "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
         }
     ],
@@ -41,7 +101,106 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "ff14b289-5f8c-4fbb-aa2a-692622a8c020",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "player_score",
+            "varType": 1
+        },
+        {
+            "id": "0580db65-edae-4a6d-864d-016a7217ec86",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "health_point",
+            "varType": 1
+        },
+        {
+            "id": "711ebcab-7300-40dc-b843-a2aaaa3295be",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "kill_count",
+            "varType": 1
+        },
+        {
+            "id": "b83cdc2e-ecb1-4952-a188-9abdf8f0955b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "boss_stage",
+            "varType": 3
+        },
+        {
+            "id": "1304fc74-349a-42df-b96e-a705ec6bb3c8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "base_aspd",
+            "varType": 1
+        },
+        {
+            "id": "063368f7-4f7f-4308-a2e3-9f85ab31953e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "8",
+            "varName": "base_mvspeed",
+            "varType": 1
+        },
+        {
+            "id": "a89745d8-214b-4144-86fc-ca436f82b1b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "base_bullet_level",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "c2fa1cbe-62af-40e2-bc33-1914c9953ef8",
     "visible": true
