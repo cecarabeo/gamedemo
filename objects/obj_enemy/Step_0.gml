@@ -30,6 +30,11 @@ if(hp <= 0)
 		instance_create_layer(x, y, "Instances",obj_pickup);
 		drop = 0;
 	}
+	if(drop == 4)
+	{
+		instance_create_layer(x, y, "Instances",obj_upgrade_pickup);
+		drop = 0;
+	}
 	//instance_destroy(obj_explosion);
 	if(instance_exists(obj_ship)){
 		obj_ship.player_score = obj_ship.player_score + 10;
