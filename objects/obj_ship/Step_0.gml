@@ -10,5 +10,4 @@ if(health_point <= 0)
 	instance_destroy();
 }
 
-
-move_wrap(true,true,sprite_width / 2);
+move_wrap(false,false,sprite_width / 2);

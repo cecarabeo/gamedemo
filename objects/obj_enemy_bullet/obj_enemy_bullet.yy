@@ -5,16 +5,6 @@
     "name": "obj_enemy_bullet",
     "eventList": [
         {
-            "id": "35f8475a-4bf1-4b8d-a936-0f0719a40b30",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "64bdabbc-048e-4c14-8f81-f6aa3cc6e404"
-        },
-        {
             "id": "e2c228b7-592e-40e5-aa2c-ddb0712b9a3c",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -51,7 +41,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "31a2dba9-1270-4f9e-bfcb-94d3c8644b2c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "speed",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "b5b439f5-b3d5-4f07-975d-bd17c4812fe4",
     "visible": true

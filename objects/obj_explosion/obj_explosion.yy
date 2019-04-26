@@ -5,16 +5,6 @@
     "name": "obj_explosion",
     "eventList": [
         {
-            "id": "6010c139-e799-4d4b-84b4-f80850dc965b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "66327c39-8a46-4165-9650-676877489bcf"
-        },
-        {
             "id": "c060ded0-9ee5-4dc1-8243-8c2c626b14e8",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -41,7 +31,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "0e31d8fe-31b7-4601-a3cc-076d05a55c66",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "explosionCounter",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "0b28befd-a11c-4b04-807c-ce40df30f3f2",
     "visible": true

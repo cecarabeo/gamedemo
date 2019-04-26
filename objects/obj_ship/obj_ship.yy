@@ -55,16 +55,6 @@
             "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
         },
         {
-            "id": "8c9af3c7-f7e3-40b1-aded-e66c3d0c5732",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
-        },
-        {
             "id": "68fbd932-2229-4fc3-b681-4692e1ae50f3",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -82,6 +72,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 1,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "9d9f2eb6-8286-4e65-b7ea-3fcc4ab0adf9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
         }
     ],
@@ -183,7 +183,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "8",
-            "varName": "base_mvspeed",
+            "varName": "base_mvspd",
             "varType": 1
         },
         {

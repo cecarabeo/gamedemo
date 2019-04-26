@@ -5,16 +5,6 @@
     "name": "obj_pickup",
     "eventList": [
         {
-            "id": "5511d390-0c36-4946-a3a9-34b3736b1399",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "f952e57e-9982-47e5-bd07-5fec6b78f1e9"
-        },
-        {
             "id": "b638fa43-78e7-4595-8d86-45284433b5ea",
             "modelName": "GMEvent",
             "mvc": "1.0",
