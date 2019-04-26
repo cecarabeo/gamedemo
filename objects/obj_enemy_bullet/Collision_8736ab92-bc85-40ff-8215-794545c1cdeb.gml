@@ -3,5 +3,8 @@
 instance_destroy();
 with(other)
 {
-	health_point = health_point - 1;
+	if(!invulnerable){
+		health_point = health_point - 1;
+		invulnerable = true;
+	}
 }
