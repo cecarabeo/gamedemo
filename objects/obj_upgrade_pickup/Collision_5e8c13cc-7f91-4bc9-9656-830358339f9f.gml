@@ -5,6 +5,6 @@ with(other)
 {
 	if(bullet_level < 3)
 	{
-		bullet_level = bullet_level + 1;
+		bullet_level++;
 	}
 }
