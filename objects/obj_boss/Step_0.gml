@@ -6,7 +6,7 @@ if(instance_exists(obj_ship)){
 		x = x + 3;
 	}
 
-	if(y < 600)
+	if(y < room_height / 2)
 	{
 		y = y + 1;
 	}
@@ -22,7 +22,7 @@ if(shootcounter <= 0)
 	var inst = instance_create_layer(x,y,"Instances", obj_enemy_bullet);
 		inst.direction = image_angle - 90;
 		inst.image_angle = image_angle - 90;
-		inst.speed = 15
+		inst.speed = 10
 var inst2 = instance_create_layer(x + sprite_width/ 2 - 50,y,"Instances", obj_enemy_bullet);
 		inst2.direction = image_angle - 90;
 		inst2.image_angle = image_angle - 90;
@@ -30,7 +30,7 @@ var inst2 = instance_create_layer(x + sprite_width/ 2 - 50,y,"Instances", obj_en
 		var inst3 = instance_create_layer(x - sprite_width/ 2 + 50,y,"Instances", obj_enemy_bullet);
 		inst3.direction = image_angle - 90;
 		inst3.image_angle = image_angle - 90;
-		inst3.speed = 30
+		inst3.speed = 10
 		shootcounter = 15;
 }
 if(hp <= 0)

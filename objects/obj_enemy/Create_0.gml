@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-hp = random_range(10, 15);
+hp = random_range(5, 10);
 init_shootcounter = random_range(25,30);
 shootcounter = init_shootcounter;
 drop = irandom(5);
