@@ -12,11 +12,10 @@ if(drop == 3){
 	instance_create_layer(x, y, "Instances",obj_upgrade_pickup);
 	drop = 0;
 }*/
-
 if(instance_exists(obj_ship)){
 	obj_ship.player_score = obj_ship.player_score + 10;
 	obj_ship.kill_count = obj_ship.kill_count + 1;
-	if(obj_ship.kill_count < 10)
+	if(instance_number(obj_enemy) < 5)
 	{
 		instance_create_layer(irandom_range(0,1024), irandom_range(0,1700), "Instances",obj_enemy);
 	}

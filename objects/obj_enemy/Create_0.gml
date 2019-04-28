@@ -4,6 +4,11 @@ hp = random_range(5, 10);
 init_shootcounter = random_range(25,30);
 shootcounter = init_shootcounter;
 drop = irandom(5);
+if(instance_exists(obj_ship))
+{
+	initial_x = obj_ship.x;
+	initial_y = obj_ship.y;
+}
 
 sprite_index = choose(spr_enemy1,spr_enemy2);
 direction = irandom_range(0,359);
