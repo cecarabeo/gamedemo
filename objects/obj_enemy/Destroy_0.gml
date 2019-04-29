@@ -8,10 +8,7 @@ if(drop == 3){
 	instance_create_layer(x, y, "Instances",type_drop);
 	drop = 0;
 }
-/*if(drop == 4){
-	instance_create_layer(x, y, "Instances",obj_upgrade_pickup);
-	drop = 0;
-}*/
+
 if(instance_exists(obj_ship)){
 	obj_ship.player_score = obj_ship.player_score + 10;
 	obj_ship.kill_count = obj_ship.kill_count + 1;

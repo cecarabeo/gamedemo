@@ -103,6 +103,26 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "d7849054-10a4-48b2-abf7-57f757322397",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 54,
+            "eventtype": 6,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
+        },
+        {
+            "id": "d104cdf5-2f65-4f9b-9310-64a7558aad01",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "676c93e0-b48e-49b5-8024-0bc4c9415088"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -134,7 +154,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "player_score",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "0580db65-edae-4a6d-864d-016a7217ec86",
@@ -247,6 +267,20 @@
             "value": "0",
             "varName": "invulnerable",
             "varType": 3
+        },
+        {
+            "id": "7bae2204-8d42-474c-864d-755f60ae98b2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "special_ammo",
+            "varType": 1
         }
     ],
     "solid": false,

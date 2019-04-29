@@ -7,4 +7,8 @@ with(other)
 	{
 		bullet_level++;
 	}
+	
+	if(special_ammo < 3){
+		special_ammo++;
+	}
 }

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "08ef9c11-446d-4851-836a-644202c0768c",
+            "Value": {
+                "id": "2baf1e64-4424-4b3e-a65b-522b300d1e10",
+                "resourcePath": "fonts\\ScoreFont\\ScoreFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0a74922f-759c-42e5-a045-0a800e9ba0b1",
             "Value": {
                 "id": "216b8962-e86b-42ad-9211-776eec25eae5",
@@ -140,14 +148,6 @@
                 "id": "ce5e7bee-c724-4151-963f-d6bdd833d24e",
                 "resourcePath": "sprites\\spr_boss\\spr_boss.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "44d924ed-d736-4f49-8b7f-9e949b9bffcb",
-            "Value": {
-                "id": "7daf96e0-c5c1-4f0a-87b4-fae908975098",
-                "resourcePath": "objects\\obj_player_explosion\\obj_player_explosion.yy",
-                "resourceType": "GMObject"
             }
         },
         {
