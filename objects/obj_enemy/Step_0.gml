@@ -12,10 +12,10 @@ if(sprite_index == spr_enemy2)
 	}
 	if(shootcounter <= 0)
 	{
-		//var inst = instance_create_layer(x,y,"Instances", obj_enemy_bullet);
-		//inst.direction = image_angle;
-		//inst.image_angle = image_angle;
-		//audio_play_sound(snd_enemyshoot,5,false);
+		var inst = instance_create_layer(x,y,"Instances", obj_enemy_bullet);
+		inst.direction = image_angle;
+		inst.image_angle = image_angle;
+		audio_play_sound(snd_enemyshoot,5,false);
 		shootcounter = init_shootcounter;
 	}
 }
@@ -29,10 +29,10 @@ if(sprite_index == spr_enemy1)
 	}
 	if(shootcounter <= 0)
 	{
-		//var inst = instance_create_layer(x,y,"Instances", obj_enemy_bullet);
-		//inst.direction = image_angle;
-		//inst.image_angle = image_angle;
-		//audio_play_sound(snd_enemyshoot,5,false);
+		var inst = instance_create_layer(x,y,"Instances", obj_enemy_bullet);
+		inst.direction = image_angle;
+		inst.image_angle = image_angle;
+		audio_play_sound(snd_enemyshoot,5,false);
 		shootcounter = init_shootcounter;
 	}
 }
