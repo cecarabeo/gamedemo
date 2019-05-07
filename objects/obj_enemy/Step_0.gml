@@ -7,7 +7,7 @@ if(sprite_index == spr_enemy2)
 	shootcounter = shootcounter - 1;
 	if(instance_exists(obj_ship))
 	{
-		move_towards_point(obj_ship.x, obj_ship.y, 1);
+		move_towards_point(obj_ship.x, obj_ship.y, movespeed);
 		image_angle = direction;
 	}
 	if(shootcounter <= 0)
@@ -22,11 +22,22 @@ if(sprite_index == spr_enemy2)
 if(sprite_index == spr_enemy1)
 {
 	shootcounter = shootcounter - 1;
-	if(instance_exists(obj_ship))
+	//direction = point_direction(x,y,initial_x, initial_y);
+	if(distance_to_point(initial_x, initial_y) > sprite_width / 2)
 	{
-		direction = point_direction(x,y,initial_x,initial_y);
-		image_angle = direction;
+		move_towards_point(initial_x, initial_y, movespeed);
 	}
+	else
+	{
+		if(instance_exists(obj_ship))
+		{
+			initial_x = obj_ship.x;
+			initial_y = obj_ship.y;
+		}
+	}
+	image_angle = direction;
+
+	
 	if(shootcounter <= 0)
 	{
 		var inst = instance_create_layer(x,y,"Instances", obj_enemy_bullet);

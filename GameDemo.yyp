@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "12c4ac39-9a05-4bd3-bd1c-c4e201867e54",
+            "Value": {
+                "id": "a3216d37-ecd6-4468-9661-093e33db1988",
+                "resourcePath": "paths\\Enemy_path\\Enemy_path.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "1717a7f5-9792-4391-b8a3-541741e1a72c",
             "Value": {
                 "id": "30f585ed-fedb-4121-8965-790e5fd29230",
